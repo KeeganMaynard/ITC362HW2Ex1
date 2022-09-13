@@ -4,6 +4,11 @@ public class TipCalculator {
     private float tip;
     private float bill;
 
+    //default constructor
+    public TipCalculator(){
+
+    }
+
     public TipCalculator(float newTip, float newBill){
         setTip(newTip);
         setBill(newBill);
