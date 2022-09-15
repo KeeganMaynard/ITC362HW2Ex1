@@ -117,4 +117,13 @@
         tools:layout_conversion_wrapHeight="152"
         tools:layout_conversion_wrapWidth="52" />
 
+    <Button
+        android:id="@+id/calculate_button"
+        style="@style/ButtonStyle"
+        android:layout_marginTop="20dp"
+        android:text="@string/button_calc"
+        app:layout_constraintTop_toBottomOf="@id/amount_total"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"/>
+
 </androidx.constraintlayout.widget.ConstraintLayout>
